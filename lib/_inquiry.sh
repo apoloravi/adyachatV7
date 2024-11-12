@@ -215,10 +215,10 @@ inquiry_options() {
   case "${option}" in
     1) get_urls ;;
 
-    # 1) 
-    #   software_update 
-    #   exit
-    #   ;;
+    1) 
+     software_update 
+     exit
+     ;;
 
     2) 
       software_delete 
